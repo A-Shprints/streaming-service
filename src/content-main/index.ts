@@ -1,0 +1,1 @@
+export const contentMain = `<div id="content-main">Это компонент contentMain</div>`;

@@ -1,0 +1,1 @@
+export const headerSearch = '<div id="header-search">Это компонент headerSearch</div>'

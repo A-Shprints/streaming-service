@@ -1,0 +1,1 @@
+export const headerUser = '<div id="header-user">Это компонент headerUser</div>'
