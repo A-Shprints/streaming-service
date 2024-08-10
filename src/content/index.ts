@@ -1,1 +1,0 @@
-export const content = `<div id="content" class="content"></div>`;

@@ -1,1 +1,0 @@
-export const headerLogo = '<div id="header-logo">Это компонент headerLogo</div>'

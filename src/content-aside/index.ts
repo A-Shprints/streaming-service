@@ -1,1 +1,0 @@
-export const contentAside = `<div id="content-aside">Это компонент contentAside</div>`;

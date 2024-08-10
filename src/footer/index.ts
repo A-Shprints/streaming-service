@@ -1,1 +1,0 @@
-export const footer = `<div id="footer">Это компонент footer</div>`;
