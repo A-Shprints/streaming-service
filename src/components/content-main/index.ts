@@ -1,7 +1,22 @@
+import { createElement } from "../../utils/createElement";
 import "./style.css"
 
-export const contentMain = 
-`<main class="main" id="content-main">
+export class ContentMain {
+    private element: HTMLElement | null = null;
 
+    getTemplate():string {
+        return `<main class="main" id="content-main">
+        </main>`
+    }
 
-</main>`
+    getElement():HTMLElement {
+        if (!this.element) {
+            this.element = createElement(this.getTemplate())
+        }
+        return this.element
+    }
+
+    removeElement():void {
+        this.element = null;
+    }
+}

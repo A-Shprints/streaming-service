@@ -1,3 +1,3 @@
-export function renderComponent(container: HTMLElement, markup: string, position: InsertPosition): void {
-    container.insertAdjacentHTML(position, markup);
+export function renderComponent(container: HTMLElement, element:     HTMLElement): void {
+    container.appendChild(element);
 }

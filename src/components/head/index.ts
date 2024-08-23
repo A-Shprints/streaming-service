@@ -1,15 +1,13 @@
+import "./style.css"
 import { createElement } from "../../utils/createElement";
 
-export class AsideHead {
-    
+export class Head {
+
     private element: HTMLElement | null = null;
 
     getTemplate():string {
         return `
-            <h2 class="visually-hidden">
-                Левая панель навигации
-            </h2>
-        `
+    <h2 class="tracks__h2 title__h2">Треки</h2>`
     }
 
     getElement():HTMLElement {
