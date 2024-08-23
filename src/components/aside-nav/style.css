@@ -1,0 +1,7 @@
+@media (max-width: 992px) {
+  .aside__nav {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+  }
+}

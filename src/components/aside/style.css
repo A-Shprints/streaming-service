@@ -1,0 +1,20 @@
+.aside {
+  padding: 46px 0px;
+  background-color: var(--color-greybg);
+  max-width: 289px;
+  width: 100%;
+  overflow: auto;
+}
+
+@media (max-width: 1300px) {
+  .aside {
+    max-width: 100%;
+    padding: 20px 46px;
+  }
+}
+
+@media (max-width: 576px) {
+  .aside {
+    padding: 20px 16px;
+  }
+}

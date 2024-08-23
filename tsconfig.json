@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es5",
+    "allowJs": true,
+    "strict": true, // Включение строгой типизации
+    "strictNullChecks": true, // Включение строгой проверки null
+    "strictFunctionTypes": true, // Включение строгих типов функций
+    "strictBindCallApply": true, // Включение строгой проверки bind, call, и apply
+    "strictPropertyInitialization": true, // Включение строгой инициализации свойств
+    "noImplicitThis": true, // Запрет на неявный this тип
+    "alwaysStrict": true, // Всегда включать строгий режим
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "files": ["src/index.ts"],
+  "include": ["src/**/*"]
+}

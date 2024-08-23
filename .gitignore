@@ -1,1 +1,5 @@
-.idea
+/_input/
+/node_modules/
+/public/
+help.ts
+todo.md

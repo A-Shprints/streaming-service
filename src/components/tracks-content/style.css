@@ -1,0 +1,48 @@
+.tracks__header {
+  color: var(--color-greytxt);
+  font-size: 12px;
+  letter-spacing: 0.09em;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.tracks__header__number {
+  width: 100%;
+  max-width: 40px;
+}
+
+.tracks__header__name {
+  max-width: 434px;
+  width: 100%;
+}
+
+.tracks__header__albom {
+  max-width: 363px;
+  width: 100%;
+}
+
+.tracks__header__data {
+  width: 100%;
+  max-width: 488px;
+  margin-right: auto;
+}
+
+.tracks__header__time {
+  width: 100%;
+  max-width: 200px;
+}
+
+@media (max-width: 1440px) {
+  .tracks__header__albom {
+    max-width: 262px;
+  }
+
+  .tracks__header__data {
+    max-width: 239px;
+  }
+
+  .tracks__header__time {
+    max-width: 99px;
+  }
+}
